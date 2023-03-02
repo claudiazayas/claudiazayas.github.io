@@ -2,7 +2,7 @@
 ***************************************************************
 * AUTHOR : CKav
 * PROJECT : Blon - Personal Portfolio Template
-* Purchase : https://themeforest.net/user/c-kav 
+* Purchase : https://themeforest.net/user/c-kav
 *
 * Copyright 2019-2020 CKav
 * NOTE : This file licensed to CKav - https://themeforest.net/user/c-kav and it is strictly prohibited to copy or reuse it.
@@ -21,7 +21,7 @@ INDEX
 *****************************************************************
 - VARIABLES
 - COLOR VARIABLES
-- MIXINS 
+- MIXINS
 - THEME MIXINS
 
 - GLOBAL
@@ -73,7 +73,7 @@ body {
   position: relative;
 }
 /*=============================================
-= FONT ALLOCATION 
+= FONT ALLOCATION
 =============================================*/
 h1,
 h2,
@@ -100,7 +100,7 @@ span,
   font-family: 'Lato', sans-serif;
 }
 /*=============================================
-= LAYOUT HELPER 
+= LAYOUT HELPER
 =============================================*/
 .full-wh {
   position: absolute;
@@ -916,4 +916,16 @@ body {
   top: 0px;
   right: 0px;
   font-size: 30px;
+}
+
+
+/*=============================================
+= COPYRIGHT ICON
+=============================================*/
+span .fa {
+  color: #3464E0;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
 }
