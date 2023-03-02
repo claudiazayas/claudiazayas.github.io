@@ -2,7 +2,7 @@
 ***************************************************************
 * AUTHOR : CKav
 * PROJECT : Blon - Personal Portfolio Template
-* Purchase : https://themeforest.net/user/c-kav 
+* Purchase : https://themeforest.net/user/c-kav
 *
 * Copyright 2019-2020 CKav
 * NOTE : This file licensed to CKav - https://themeforest.net/user/c-kav and it is strictly prohibited to copy or reuse it.
@@ -21,7 +21,7 @@ INDEX
 *****************************************************************
 - VARIABLES
 - COLOR VARIABLES
-- MIXINS 
+- MIXINS
 - THEME MIXINS
 
 - ANIMATIONS
@@ -39,7 +39,7 @@ INDEX
 - SKILLS-BOX
 - PORTFOLIO
 - LIST
-- CLIENTS 
+- CLIENTS
 - PAGINATIONS
 *****************************************************************
 */
@@ -596,6 +596,7 @@ INDEX
   text-transform: uppercase;
   letter-spacing: 0.07142857rem;
   line-height: 1rem;
+  margin-right: 25px;
 }
 .button-rd {
   border-radius: 4.28571429rem;
@@ -728,65 +729,65 @@ button:focus {
 =============================================*/
 .color-button-default {
   background-color: transparent;
-  border-color: #de1d36;
-  color: #de1d36;
+  border-color: #8224E3;
+  color: #8224E3;
 }
 .color-button-default:hover,
 .color-button-default:focus,
 .color-button-default:active,
 .color-button-default.active {
-  background-color: #de1d36;
-  border-color: #de1d36;
+  background-color: #8224E3;
+  border-color: #8224E3;
   color: #fff;
 }
 .solid.color-button-default {
-  border-color: #de1d36;
+  border-color: #8224E3;
   color: #fff;
 }
 .solid.color-button-default:not([class*="bg-glass-"]) {
-  background-color: #de1d36;
+  background-color: #8224E3;
 }
 .solid.color-button-default:hover,
 .solid.color-button-default:focus,
 .solid.color-button-default:active,
 .solid.color-button-default.active {
   background-color: transparent;
-  border-color: #de1d36;
-  color: #de1d36;
+  border-color: #8224E3;
+  color: #8224E3;
 }
 .button-3d.color-button-default {
   box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15);
-  border-color: #de1d36;
+  border-color: #8224E3;
   color: #fff;
 }
 .button-3d.color-button-default:not([class*="bg-glass-"]) {
-  background-color: #de1d36;
+  background-color: #8224E3;
 }
 .button-3d.color-button-default:hover,
 .button-3d.color-button-default:focus,
 .button-3d.color-button-default:active,
 .button-3d.color-button-default.active {
   top: 2px;
-  background-color: #de1d36;
-  border-color: #de1d36;
+  background-color: #8224E3;
+  border-color: #8224E3;
   box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
 }
 .button-3dr.color-button-default {
   box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15);
-  border-color: #de1d36;
+  border-color: #8224E3;
   color: #fff;
 }
 .button-3dr.color-button-default:not([class*="bg-glass-"]) {
-  background-color: #de1d36;
+  background-color: #8224E3;
 }
 .button-3dr.color-button-default:hover,
 .button-3dr.color-button-default:focus,
 .button-3dr.color-button-default:active,
 .button-3dr.color-button-default.active {
   top: 2px;
-  background-color: #de1d36;
-  border-color: #de1d36;
+  background-color: #8224E3;
+  border-color: #8224E3;
   box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
 }
@@ -1112,8 +1113,8 @@ button:focus {
 }
 .color-hov-button-default:hover,
 .solid.color-hov-button-default:hover {
-  background-color: #de1d36;
-  border-color: #de1d36;
+  background-color: #8224E3;
+  border-color: #8224E3;
   color: #fff;
 }
 .color-hov-button-primary:hover,
@@ -1177,7 +1178,7 @@ button:focus {
   display: flex;
 }
 .info-obj .iconwrp {
-  color: #de1d36;
+  color: #8224E3;
 }
 .iconbox,
 .iconwrp {
@@ -1387,7 +1388,7 @@ button:focus {
 }
 .info-box-02 .iconwrp {
   margin-top: -30px;
-  background-color: #de1d36;
+  background-color: #8224E3;
   color: #fff;
 }
 .info-box-02.large {
@@ -1884,7 +1885,7 @@ button:focus {
   background-color: #1F2229;
 }
 .form-widget.form-control-default .form-control {
-  background-color: #de1d36;
+  background-color: #8224E3;
 }
 .form-widget.form-control-gray .form-control {
   background-color: #F4F5F5;
@@ -1906,7 +1907,7 @@ button:focus {
   width: 50px;
   height: 50px;
   font-size: 18px;
-  color: #de1d36;
+  color: #8224E3;
 }
 .form-widget-icons .form-control {
   padding-left: 50px;
@@ -2278,7 +2279,7 @@ select.form-control {
 }
 .skills-info-01 .skills-progress {
   height: 100%;
-  background-color: #de1d36;
+  background-color: #8224E3;
   position: relative;
 }
 .skills-info-01 .skills-per {
@@ -2316,7 +2317,7 @@ select.form-control {
 .image-infobox .icon {
   line-height: 1;
   margin-bottom: 10px;
-  color: #de1d36;
+  color: #8224E3;
 }
 .image-infobox .image-overlay {
   position: absolute;
