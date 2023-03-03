@@ -44,7 +44,7 @@
         <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
 
         <!-- PAGE SPECIFIC VENDOR CSS -->
-        <link rel="stylesheet" href="vendor/ripple-effects/ripple.css">
+      <!--  <link rel="stylesheet" href="vendor/ripple-effects/ripple.css">-->
 
         <!-- TEMPLATE COMMON CSS -->
         <link rel="stylesheet" href="css/ckav-main.css">
@@ -1222,11 +1222,58 @@
 <script src="vendor/isotope/packery-mode.pkgd.min.js"></script>
 
 <!-- PAGE SPECIFIC VENDOR SCRIPTS -->
-<script src="vendor/ripple-effects/ripple.js"></script>
+<!--<script src="vendor/ripple-effects/ripple.js"></script>-->
 
 <!-- TEMPLATE COMMON SCRIPTS -->
 <script src="js/ckav-main.js"></script>
 
+<!-- RIPPLE EFFECT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="../dist/jquery.ripples.js"></script>
+<script>
+$(document).ready(function() {
+	try {
+		$('body').ripples({
+			resolution: 512,
+			dropRadius: 20, //px
+			perturbance: 0.04,
+		});
+		$('main').ripples({
+			resolution: 128,
+			dropRadius: 10, //px
+			perturbance: 0.04,
+			interactive: false
+		});
+	}
+	catch (e) {
+		$('.error').show().text(e);
+	}
+
+	$('.js-ripples-disable').on('click', function() {
+		$('body, main').ripples('destroy');
+		$(this).hide();
+	});
+
+	$('.js-ripples-play').on('click', function() {
+		$('body, main').ripples('play');
+	});
+
+	$('.js-ripples-pause').on('click', function() {
+		$('body, main').ripples('pause');
+	});
+
+	// Automatic drops
+	setInterval(function() {
+		var $el = $('main');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 20;
+		var strength = 0.04 + Math.random() * 0.04;
+
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 400);
+});
+</script>
 
 </body>
 </html>
